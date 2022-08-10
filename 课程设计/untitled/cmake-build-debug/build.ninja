@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/64783/Desktop/课程设计2021401288源峰/untitled/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/64783/Desktop/课程设计/untitled/cmake-build-debug/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\64783\Desktop\课程设计2021401288源峰\untitled\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\64783\Desktop\课程设计\untitled\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -60,7 +60,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/main.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/64783/Desktop/课程设计2021401288源峰/untitled/main.cpp || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/main.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/64783/Desktop/课程设计/untitled/main.cpp || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles\untitled.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\untitled.dir
@@ -89,43 +89,6 @@ build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.di
   TARGET_PDB = untitled.pdb
 
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled1
-
-
-#############################################
-# Order-only phony target for untitled1
-
-build cmake_object_order_depends_target_untitled1: phony || CMakeFiles/untitled1.dir
-
-build CMakeFiles/untitled1.dir/labalzh.cpp.obj: CXX_COMPILER__untitled1_Debug C$:/Users/64783/Desktop/课程设计2021401288源峰/untitled/labalzh.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\labalzh.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
-  TARGET_COMPILE_PDB = CMakeFiles\untitled1.dir\
-  TARGET_PDB = untitled1.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target untitled1
-
-
-#############################################
-# Link the executable untitled1.exe
-
-build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/labalzh.cpp.obj
-  FLAGS = -g
-  LINK_FLAGS = -static-libgcc -static-libstdc++
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\untitled1.dir\
-  TARGET_FILE = untitled1.exe
-  TARGET_IMPLIB = libuntitled1.dll.a
-  TARGET_PDB = untitled1.pdb
-
-# =============================================================================
 # Object build statements for EXECUTABLE target untitled2
 
 
@@ -134,7 +97,7 @@ build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1
 
 build cmake_object_order_depends_target_untitled2: phony || CMakeFiles/untitled2.dir
 
-build CMakeFiles/untitled2.dir/train.cpp.obj: CXX_COMPILER__untitled2_Debug C$:/Users/64783/Desktop/课程设计2021401288源峰/untitled/train.cpp || cmake_object_order_depends_target_untitled2
+build CMakeFiles/untitled2.dir/train.cpp.obj: CXX_COMPILER__untitled2_Debug C$:/Users/64783/Desktop/课程设计/untitled/train.cpp || cmake_object_order_depends_target_untitled2
   DEP_FILE = CMakeFiles\untitled2.dir\train.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\untitled2.dir
@@ -171,7 +134,7 @@ build untitled2.exe: CXX_EXECUTABLE_LINKER__untitled2_Debug CMakeFiles/untitled2
 
 build cmake_object_order_depends_target_untitled3: phony || CMakeFiles/untitled3.dir
 
-build CMakeFiles/untitled3.dir/test.cpp.obj: CXX_COMPILER__untitled3_Debug C$:/Users/64783/Desktop/课程设计2021401288源峰/untitled/test.cpp || cmake_object_order_depends_target_untitled3
+build CMakeFiles/untitled3.dir/test.cpp.obj: CXX_COMPILER__untitled3_Debug C$:/Users/64783/Desktop/课程设计/untitled/test.cpp || cmake_object_order_depends_target_untitled3
   DEP_FILE = CMakeFiles\untitled3.dir\test.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\untitled3.dir
@@ -208,7 +171,7 @@ build untitled3.exe: CXX_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3
 
 build cmake_object_order_depends_target_untitled4: phony || CMakeFiles/untitled4.dir
 
-build CMakeFiles/untitled4.dir/debug.cpp.obj: CXX_COMPILER__untitled4_Debug C$:/Users/64783/Desktop/课程设计2021401288源峰/untitled/debug.cpp || cmake_object_order_depends_target_untitled4
+build CMakeFiles/untitled4.dir/debug.cpp.obj: CXX_COMPILER__untitled4_Debug C$:/Users/64783/Desktop/课程设计/untitled/debug.cpp || cmake_object_order_depends_target_untitled4
   DEP_FILE = CMakeFiles\untitled4.dir\debug.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\untitled4.dir
@@ -241,7 +204,7 @@ build untitled4.exe: CXX_EXECUTABLE_LINKER__untitled4_Debug CMakeFiles/untitled4
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\64783\Desktop\课程设计2021401288源峰\untitled\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\64783\Desktop\课程设计2021401288源峰\untitled -BC:\Users\64783\Desktop\课程设计2021401288源峰\untitled\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\64783\Desktop\课程设计\untitled\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\64783\Desktop\课程设计\untitled -BC:\Users\64783\Desktop\课程设计\untitled\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -252,8 +215,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Target aliases.
 
 build untitled: phony untitled.exe
-
-build untitled1: phony untitled1.exe
 
 build untitled2: phony untitled2.exe
 
@@ -267,9 +228,9 @@ build untitled4: phony untitled4.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/64783/Desktop/课程设计2021401288源峰/untitled/cmake-build-debug
+# Folder: C:/Users/64783/Desktop/课程设计/untitled/cmake-build-debug
 
-build all: phony untitled.exe untitled1.exe untitled2.exe untitled3.exe untitled4.exe
+build all: phony untitled.exe untitled2.exe untitled3.exe untitled4.exe
 
 # =============================================================================
 # Built-in targets
